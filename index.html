@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Nos destacamos en hacer las mejores tortas caseras de todo Buenos Aires" />
+        <meta name="keywords" content="Pasteles, Tortas, Comida, Postres">
+        <title>Claudina Pastelera</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.png" alt="Logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">redes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#buscar"><i class="fi-rr-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                <div class="masthead-heading text-uppercase">
+                    <h1>Bienvenidos</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Productos</h2>
+                    <h3 class="section-subheading text-muted">Algunas fotitos de lo que hacemos.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/tortabrownie.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Tortas</div>
+                                <!--<div class="portfolio-caption-subheading text-muted">Illustration</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/budinNar.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Budines</div>
+                                <!--<div class="portfolio-caption-subheading text-muted">Graphic Design</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/alfajor.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Alfajores</div>
+                                <!--<div class="portfolio-caption-subheading text-muted">Identity</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contacto</h2>
+                    <h3 class="section-subheading text-muted">Dejanos tu opinion para mejorar.</h3>
+                </div>
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Nombre *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un email.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">El correo no es válido.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefono *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de teléfono.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Tu mensaje *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Envío de formulario exitoso!</div>
+                            Gracias por contactarnos ♥
+                            <br />
+                            <a href="https://www.instagram.com/claudinapastelera/"></a>
+                        </div>
+                    </div>
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4" id=footer>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start"> </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/claudinapastelera" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=541164803619&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!"> </a>
+                        <a class="link-dark text-decoration-none" href="#!">  </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Torta Brownie</h2>
+                                    <p class="item-intro text-muted">Esta es nuestra torta brownie  </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/tortabrownie.jpg" alt="..." />
+                                    <p>Base de brownie,dulce de leche,crema y frutos rojos.Tambien podés pedirlo con dulce de leche y merengue</p>
+                                    <h2 class="text-uppercase">Torta Balcarce</h2>
+                                    <p class="item-intro text-muted">Esta es nuestra torta Balcarce </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/balcarce.png" alt="..." />
+                                    <p>Tres capas de pionono casero con un relleno de crema, dulce de leche y trocitos de dulce de batatá.</p>                                    
+                                    <h2 class="text-uppercase">Torta Cheesecake</h2>
+                                    <p class="item-intro text-muted">Esta es nuestra torta Cheesecake </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/cheescake.png" alt="..." />
+                                    <p>Este pastel tiene una base de masa crocante que se desace al morderlo, con queso y cubierta de frutos rojos.Tambien tenemos de dulce de leche.</p>
+                                    <h2 class="text-uppercase">Torta Lemon Pie</h2>
+                                    <p class="item-intro text-muted">Esta es nuestra torta Lemon Pie </p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/lemonpie.png" alt="..." />
+                                    <p>Base de masa crocante relleno de una exquisita crema de limón,cubierto por un merengue que parece una espuma.</p>                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Budines</h2>
+                                    <p class="item-intro text-muted">Este es nuestro budin de mandarina con chocolate</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/budinNar.png" alt="..." />
+                                    
+
+                                    <p class="item-intro text-muted">Este es nuestro budin de Limon</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/budinlimon.png" alt="..." />
+
+                                    <p class="item-intro text-muted">Este es nuestro budin de frutos rojos</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/budinfr.png" alt="..." />
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Alfajores</h2>
+                                    <p class="item-intro text-muted">Estos son nuestros alfajores de dulce de leche bañados en chocolate blanco y nuces</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/alfajor.png" alt="..." />
+
+                                    <p class="item-intro text-muted">Estos son nuestros alfajores de maicena</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/alfmai.png" alt="..." />
+
+                                    <p class="item-intro text-muted">Estos son nuestros alfajores de chocolate</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/alfch.png" alt="..." />
+
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsp">			
+			<a href="https://wa.me/1553788729" target="_blank">
+				<img src="assets/Background.png" alt="whatsapp" >
+			</a>
+	    </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
